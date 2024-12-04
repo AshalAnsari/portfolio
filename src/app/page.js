@@ -40,7 +40,7 @@ export default function Home() {
 
       {/* WhatsApp Button */}
       <a 
-        href="https://wa.me/03102866415" 
+        href="https://wa.me/9203102866415" 
         className={`whatsapp-button ${shouldVibrate ? 'vibrate' : ''}`} 
         target="_blank" 
         rel="noopener noreferrer"
