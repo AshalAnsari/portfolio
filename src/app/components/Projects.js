@@ -1,8 +1,8 @@
 import React from 'react';
 import profilePic from '../alijannnn.PNG'; // Update with your image path
-import pic2 from '../zeta.PNG';
+import pic22 from '../pic22.PNG';
 import proj3 from '../proj3.jpeg';
-import proj4 from '../proj4.jpeg';
+import proj4 from '../picsh.PNG';
 import proj5 from '../softlyfy.jpeg';
 import Image from 'next/image';
 
@@ -14,10 +14,10 @@ const projectData = [
     link: 'https://greenbook-zeta.vercel.app/', // Replace with your project link
   },
   {
-    title: 'Expense Tracker',
-    description: 'To track the expenses made in life.',
-    imageUrl: pic2, // Replace with your project image URL
-    link: 'https://notesapp-7bqq.vercel.app/', // Replace with your project link
+    title: 'Portfolio and Games',
+    description: 'A university based project to build a portfolio of group members and solve problems',
+    imageUrl: pic22, // Replace with your project image URL
+    link: 'https://teamx-eight.vercel.app/', // Replace with your project link
   },
   {
     title: 'Online Newspaper',
@@ -26,10 +26,10 @@ const projectData = [
     link: 'https://newspaperonline.vercel.app/', // Replace with your project link
   },
   {
-    title: 'Online Text Editor',
-    description: 'Online text editor',
+    title: 'Online Attendance SYstem',
+    description: 'System that takes attendence and generate reports',
     imageUrl: proj4, // Replace with your project image URL
-    link: 'https://utils-b55s4p0ar-ali-jameels-projects.vercel.app/', // Replace with your project link
+    link: 'https://as-efrontend.vercel.app/', // Replace with your project link
   },
   {
     title: 'Softlyfy',
