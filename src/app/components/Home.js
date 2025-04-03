@@ -11,11 +11,11 @@ export const metadata = {
   openGraph: {
     title: 'Ali Jan Jameel | Portfolio',
     description: 'Showcasing my best work as a web developer.',
-    url: 'https://your-portfolio.vercel.app/',
+    url: 'https://alijanportfolios.vercel.app/',
     siteName: 'Ali Jan Jameel Portfolio',
     images: [
       {
-        url: 'https://your-portfolio.vercel.app/ali.jpeg', // Update if needed
+        url: 'https://alijanportfolios.vercel.app/ali.jpeg', // Ensure correct image URL
         width: 800,
         height: 600,
         alt: 'Ali Jan Jameel',
@@ -29,10 +29,13 @@ export const metadata = {
     site: '@yourTwitterHandle', // Replace with your Twitter username
     title: 'Ali Jan Jameel | Portfolio',
     description: 'Explore my projects and skills as a full-stack developer.',
-    images: ['https://your-portfolio.vercel.app/ali.jpeg'],
+    images: ['https://alijanportfolios.vercel.app/ali.jpeg'],
+  },
+  // **Google Search Console Verification**
+  other: {
+    'google-site-verification': 'a1wDhGiYpgrA_io3XMAAa4HBO8bfzQDbpCMXPc3Iano',
   },
 };
-
 export default function Home() {
   return (
     <section id="home" className="home-section">
