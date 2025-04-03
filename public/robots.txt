@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://alijanportfolios.vercel.app/sitemap.xml
