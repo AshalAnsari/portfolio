@@ -85,6 +85,7 @@ export default function Home() {
           align-items: center;
           background-color: rgba(0, 0, 0, 0.7);
           color: white;
+          margin-top:40px
         }
 
         .content {
@@ -97,6 +98,7 @@ export default function Home() {
 
         .text {
           margin-bottom: 20px;
+
         }
 
         .name-animation {
@@ -152,9 +154,9 @@ export default function Home() {
           .text {
             flex: 1;
             margin-right: 40px;
+           
           }
-
-          .image {
+       .image {
             flex: 0 0 auto;
           }
         }

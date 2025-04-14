@@ -3,7 +3,7 @@ import profilePic from '../alijannnn.PNG'; // Update with your image path
 import pic22 from '../pic22.PNG';
 import proj3 from '../proj3.jpeg';
 import proj4 from '../picsh.PNG';
-import proj5 from '../softlyfy.jpeg';
+import proj5 from '../eshop.jpeg';
 import Image from 'next/image';
 
 const projectData = [
@@ -32,10 +32,10 @@ const projectData = [
     link: 'https://as-efrontend.vercel.app/', // Replace with your project link
   },
   {
-    title: 'Softlyfy',
-    description: 'Web agency website',
+    title: 'EShop4',
+    description: 'An Online platform for shopping',
     imageUrl: proj5, // Replace with your project image URL
-    link: '#', // Replace with your project link
+    link: 'https://e-shop-gray-theta.vercel.app/', // Replace with your project link
   },
   // {
   //   title: 'GreenBook',
