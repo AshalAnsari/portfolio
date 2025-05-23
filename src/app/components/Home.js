@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: 'Ashal Ansari | Portfolio',
     description: 'Showcasing my best work as a web developer.',
-    // url: 'https://ashalansari.vercel.app/',
+    url: 'https://myportfolio-ebon-delta-91.vercel.app/',
     siteName: 'Ashal Ansari Portfolio',
     images: [
       {

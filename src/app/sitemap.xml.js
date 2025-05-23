@@ -1,5 +1,5 @@
 export async function GET() {
-    const baseUrl = "https://alijanportfolios.vercel.app";
+    const baseUrl = "https://myportfolio-ebon-delta-91.vercel.app/";
     const urls = ["/", "/about", "/projects", "/contact"]; // Add more pages if needed
   
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
