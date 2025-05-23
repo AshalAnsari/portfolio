@@ -1,23 +1,21 @@
 'use client';
 import React from 'react';
-import Image from 'next/image';
-import picture from '../ali.jpeg';
 
 export const metadata = {
-  title: 'Ali Jan Jameel | Portfolio',
-  description: 'Welcome to Ali Jan Jameel’s portfolio. A passionate full-stack developer with expertise in JavaScript, Next.js, and React.',
-  keywords: 'Ali Jan Jameel, portfolio, web developer, fullstack, JavaScript, Next.js, React',
+  title: 'Ashal Ansari | Portfolio',
+  description: 'Welcome to Ashal Ansari’s portfolio. A passionate full-stack developer with expertise in JavaScript, React, and Flutter.',
+  keywords: 'Ashal Ansari, portfolio, web developer, fullstack, JavaScript, React, Flutter',
   openGraph: {
-    title: 'Ali Jan Jameel | Portfolio',
+    title: 'Ashal Ansari | Portfolio',
     description: 'Showcasing my best work as a web developer.',
-    url: 'https://alijanportfolios.vercel.app/',
-    siteName: 'Ali Jan Jameel Portfolio',
+    // url: 'https://ashalansari.vercel.app/',
+    siteName: 'Ashal Ansari Portfolio',
     images: [
       {
-        url: 'https://alijanportfolios.vercel.app/ali.jpeg',
+        // url: 'https://ashalansari.vercel.app/ali.jpeg',
         width: 800,
         height: 600,
-        alt: 'Ali Jan Jameel',
+        alt: 'Ashal Ansari',
       },
     ],
     locale: 'en_US',
@@ -26,9 +24,9 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     site: '@yourTwitterHandle',
-    title: 'Ali Jan Jameel | Portfolio',
+    title: 'Ashal Ansari | Portfolio',
     description: 'Explore my projects and skills as a full-stack developer.',
-    images: ['https://alijanportfolios.vercel.app/ali.jpeg'],
+    // images: ['https://ashalansari.vercel.app/ali.jpeg'],
   },
   other: {
     'google-site-verification': 'a1wDhGiYpgrA_io3XMAAa4HBO8bfzQDbpCMXPc3Iano',
@@ -41,21 +39,11 @@ export default function Home() {
       <div className="content">
         <div className="text">
           <h1 className="name-animation">
-            {'ALI JAN'.split('').map((char, index) => (
+            {'Ashal Ansari'.split('').map((char, index) => (
               <span
-                key={`ali-jan-${index}`}
-                className={`letter blue ${char === ' ' ? 'space' : ''}`}
+                key={`Ashal Ansari-${index}`}
+                className={`letter blue `}
                 style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                {char}
-              </span>
-            ))}
-            {' '}
-            {'JAMEEL'.split('').map((char, index) => (
-              <span
-                key={`jameel-${index}`}
-                className={`letter gradient ${char === ' ' ? 'space' : ''}`}
-                style={{ animationDelay: `${(index + 7) * 0.1}s` }}
               >
                 {char}
               </span>
@@ -63,14 +51,14 @@ export default function Home() {
           </h1>
 
           <p className="description">
-            I'm a full-stack developer with a strong foundation in JavaScript, React, and Next.js. 
+            I'm a full-stack developer with a strong foundation in JavaScript, React, and Flutter. 
             I love solving problems, building efficient systems, and crafting beautiful user experiences.
             Whether it's frontend design or backend logic, I enjoy every part of the development journey.
           </p>
         </div>
 
         {/* <div className="image">
-          <Image src={picture} alt="Ali Jan Jameel" width={250} height={250} className="profile-pic" />
+          <Image src={picture} alt="Ashal Ansari" width={250} height={250} className="profile-pic" />
         </div> */}
       </div>
 

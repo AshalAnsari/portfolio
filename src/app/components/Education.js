@@ -8,9 +8,9 @@ const educationData = [
     description: 'Focused on software development and web technologies.',
   },
   {
-    institution: 'Adamjee Govt.Science College',
+    institution: 'Adler College',
     degree: 'Intermediate',
-    year: '2018 - 2020',
+    year: '2019 - 2021',
     description: 'Studied sciences and mathematics with honors.',
   },
   // Add more educational experiences as needed

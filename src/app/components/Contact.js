@@ -6,25 +6,25 @@ export default function Footer() {
     <footer className="footer-section">
       <div className="footer-content">
         <div className="social-icons">
-          <a href="https://github.com/AliJanGithub" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/AshalAnsari" target="_blank" rel="noopener noreferrer">
             <FaGithub className="icon github" />
             <span style={{ padding: '12px' }}>GitHub</span>
           </a>
-          <a href="https://www.linkedin.com/in/ali-jan-286855278/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/ashal-ansari-3a3a731b1/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="icon linkedin" />
             <span style={{ padding: '12px' }}>LinkedIn</span>
           </a>
-          <a href="https://www.instagram.com/ajan06132/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/ashal_ansari1/" target="_blank" rel="noopener noreferrer">
             <FaInstagram className="icon instagram" />
             <span style={{ padding: '12px' }}>Instagram</span>
           </a>
         </div>
         <div className="contact-info">
-          <p>Email: <a href="mailto:alijan061333@gmail.com">alijan061333@gmail.com</a></p>
-          <p>Phone: <a href="tel:+923102866415">+92 310 2866415</a></p>
+          <p>Email: <a href="mailto:ashalansari7398@gmail.com">ashalansari7398@gmail.com</a></p>
+          <p>Phone: <a href="tel:+923342652039">+92 3342652039</a></p>
         </div>
         <p className="footer-text">
-          &copy; {new Date().getFullYear()} ALI JAN. All rights reserved.
+          &copy; {new Date().getFullYear()} Ashal Ansari. All rights reserved.
         </p>
       </div>
 

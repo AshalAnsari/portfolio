@@ -20,29 +20,12 @@ const projectData = [
     link: 'https://teamx-eight.vercel.app/', // Replace with your project link
   },
   {
-    title: 'Online Newspaper',
-    description: 'This is an online newspaper',
-    imageUrl: proj3, // Replace with your project image URL
-    link: 'https://newspaperonline.vercel.app/', // Replace with your project link
-  },
-  {
     title: 'Online Attendance SYstem',
     description: 'System that takes attendence and generate reports',
     imageUrl: proj4, // Replace with your project image URL
     link: 'https://as-efrontend.vercel.app/', // Replace with your project link
   },
-  {
-    title: 'EShop4',
-    description: 'An Online platform for shopping',
-    imageUrl: proj5, // Replace with your project image URL
-    link: 'https://e-shop-gray-theta.vercel.app/', // Replace with your project link
-  },
-  // {
-  //   title: 'GreenBook',
-  //   description: 'Go and Enjoy the GreenBook experience',
-  //   imageUrl: profilePic, // Replace with your project image URL
-  //   link: 'https://greenbook-zeta.vercel.app/', // Replace with your project link
-  // },
+  
 ];
 
 export default function Projects() {

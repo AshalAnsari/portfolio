@@ -2,7 +2,7 @@ import React from 'react';
 import { FaJsSquare, FaReact, FaNodeJs, FaCss3Alt, FaGitAlt, FaHtml5, FaDatabase } from 'react-icons/fa';
 
 // Custom SVG component for the Next.js logo
-const NextJsIcon = () => (
+const FlutterIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M24 12.9736C24 19.0808 19.1974 23.9529 12.1322 23.9529C5.06705 23.9529 0.264648 19.0808 0.264648 12.9736C0.264648 6.8664 5.06705 1.99433 12.1322 1.99433C19.1974 1.99433 24 6.8664 24 12.9736Z" fill="white"/>
     <path d="M12.4421 14.732L6.5029 5.4509H7.92137L12.4431 12.2235L16.742 5.4509H18.1075L12.4421 14.732Z" fill="black"/>
@@ -19,7 +19,7 @@ const skills = [
   { name: 'HTML', percentage: 90, icon: <FaHtml5 /> },
   { name: 'MongoDB', percentage: 75, icon: <FaDatabase /> },
   { name: 'SQL', percentage: 70, icon: <FaDatabase /> },
-  { name: 'Next.js', percentage: 85, icon: <NextJsIcon /> },
+  { name: 'Flutter', percentage: 70, icon: null },
 ];
 
 const CircularProgressBar = ({ percentage }) => {
